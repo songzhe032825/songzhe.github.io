@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaweb03:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaweb03_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaweb03/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaweb03" />
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.27" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maven-ch03.iml" filepath="$PROJECT_DIR$/maven-ch03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenweb/mavenweb.iml" filepath="$PROJECT_DIR$/mavenweb/mavenweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick/quick.iml" filepath="$PROJECT_DIR$/quick/quick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickily/quickily.iml" filepath="$PROJECT_DIR$/quickily/quickily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web02/web0/web0.iml" filepath="$PROJECT_DIR$/web02/web0/web0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web01/web01.iml" filepath="$PROJECT_DIR$/web01/web01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web02/web02.iml" filepath="$PROJECT_DIR$/web02/web02.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AJAX/AJAX.iml" filepath="$PROJECT_DIR$/../AJAX/AJAX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JSTL/JSTL.iml" filepath="$PROJECT_DIR$/../JSTL/JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aaaa/aaaa.iml" filepath="$PROJECT_DIR$/../aaaa/aaaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ajax1/ajax1.iml" filepath="$PROJECT_DIR$/../ajax1/ajax1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cookie/cookie.iml" filepath="$PROJECT_DIR$/../cookie/cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../filter/filter.iml" filepath="$PROJECT_DIR$/../filter/filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspoa.iml" filepath="$PROJECT_DIR$/jspoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../level-jquery/level-jquery.iml" filepath="$PROJECT_DIR$/../level-jquery/level-jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../yunsuanfu/yunsuanfu.iml" filepath="$PROJECT_DIR$/../yunsuanfu/yunsuanfu.iml" />
+    </modules>
+  </component>
+</project>

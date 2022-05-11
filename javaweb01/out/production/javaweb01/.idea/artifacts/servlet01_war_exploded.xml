@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet01:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet01_war_exploded</output-path>
+    <root id="archive" name="servlet01_war exploded.war">
+      <element id="javaee-facet-resources" facet="servlet01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet01" />
+          <element id="library" level="project" name="javaweb01" />
+          <element id="module-output" name="servlet02" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/dev/apache-tomcat-10.0.20/lib/servlet-api.jar" />
+          <element id="file-copy" path="C:/dev/apache-tomcat-10.0.20/lib/jsp-api.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servlet02/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javase-maven:war">
+    <output-path>$PROJECT_DIR$/javase-maven/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javase-maven</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javase-maven-1.0.war">
+      <element id="artifact" artifact-name="javase-maven:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,68 @@
+package com.hspedu.tankgame4;
+
+/**
+ * @author 宋哲
+ * @version 1.0
+ * 坦克提供父类的属性 要子类去继承
+ */
+@SuppressWarnings({"all"})
+public class Tank {
+    private int x;//坦克的横坐标
+    private int y;//坦克的纵坐标
+    private int direct; //坦克方向 0，1，2，3 顺时针方向
+    private int speed;  //设置坦克速度
+    boolean isLive = true; //属性坦克是否存活
+
+    //在Tank类中定义一个坐标的移动方法 WSDA
+    public void moveUp(){
+        y -= speed;
+    }
+    public void moveRight(){
+        x += speed;
+    }
+    public void moveDown(){
+        y += speed;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public void moveLeft(){
+        x -= speed;
+    }
+
+    public int getDirect() {
+        return direct;
+    }
+
+    public void setDirect(int direct) {
+        this.direct = direct;
+    }
+
+
+    public Tank(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+}

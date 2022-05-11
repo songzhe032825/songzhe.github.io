@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.bjpowernode</groupId>
+  <artifactId>web01</artifactId>
+  <version>1.0</version>
+  <!--项目默认是war文件-->
+  <packaging>war</packaging>
+
+  <name>web01 Maven Webapp</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  <dependencies>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!--直接用tomcat加依赖都是手动添加 现在不需要了 只要在pom.xml下加servlet jsp就行-->
+    <!--加入servlet jsp的jar文件-->
+    <dependency>
+  <groupId>javax.servlet</groupId>
+  <artifactId>servlet-api</artifactId>
+  <version>2.5</version>
+  <scope>provided</scope>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+  <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+  <dependency>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>jsp-api</artifactId>
+    <version>2.1</version>
+    <scope>provided</scope>
+
+  </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.1.22</version>
+    </dependency>
+
+</dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.2</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
